@@ -16,10 +16,28 @@ Where the idea is:
 Pick the embedder you can defend in DECISIONS.md; bge-small and potion-retrieval-32M are the two the lab measured.
 """
 
+from __future__ import annotations
+
+from p2 import embed
+from p2.retrievers import ChunkScorer
+
 NEEDS_CLAUDE = False
 
 
+class Dense(ChunkScorer):
+    model = embed.BGE
+
+    def __init__(self, corpus, cfg):
+        super().__init__(corpus, cfg)
+        self.embedder = embed.load(self.model)
+        self.vectors = embed.doc_vectors(self.embedder, [c.text for c in self.chunks], cfg.root)
+
+    def score_chunks(self, text: str) -> list[float]:
+        if not self.chunks:
+            return []
+        query_vec = self.embedder.encode([text])[0]
+        return (self.vectors @ query_vec).tolist()
+
+
 def build(corpus, cfg):
-    raise NotImplementedError(
-        "dense is not built yet: write p2/retrievers/dense.py (the idea is in the 12 lab's retrieve.py, dense_rankings, and p2/embed.py has the helpers)."
-    )
+    return Dense(corpus, cfg)
