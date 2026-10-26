@@ -1,0 +1,30 @@
+# Alien Origin
+
+Alien Origin is a 2012 American science fiction/horror film produced by The Asylum and directed by Mark Atkins. The film stars Chelsea Vincent, Peter Pedrero, Philip Coc, Trey McCurley and Daniela Flynn.
+The film was released direct-to-DVD on June 12, 2012. It is a mockbuster of the 20th Century Studios Alien series, produced to capitalise on the release of the 2012 film Prometheus.
+
+Plot
+In 2011, a group of soldiers and a journalist team head out to the jungles of Belize. The mission was thought to just be plant surveillance on hostile state borders. The soldiers and Julie Evans team locate an abandoned boat in the middle of an open field. One of the soldiers advises Julie that the nearest ocean to where they found the boat is at least 150 miles. A camera with an intact SD card was retrieved from the boat. Footage from the SD card contained underwater footage and ended with a man screaming as the screen fades to black.
+Afterwards, the team decides to make camp and set up security cameras. Night vision cameras show various animals roaming around. One of the cameras suddenly blacks out. At dawn, the soldiers find markings on trees near Julie's sleeping area. They soon discover that a camera - the one that blacked out earlier, was destroyed.
+The group soon receives new orders from base. An archaeological team has gone missing. And they are to head to the area where Dr. Holden's archaeological team was last seen. They soon run into a man cutting wood and asks him about the missing archaeological team. He claims to have no idea where they are.
+The group arrives at Holden's camp site. They only find a man who claims to also be looking for Holden. A video diary belonging to Holden is then shown. It's shown in the video that Holden located a mysterious skull inside the cave. Afterwards, a strange sound is heard and the camera woman Susan runs outside the cave panicking.
+Julie is then informed that one of the two missing archaeologist has been found and they head to the location. On their way they encounter a Mennonite community. The Mennonites then proceed to show them to where Susan is. Susan claims she knows where Holden is and will take them to where she last saw him. Susan explains that what attacked them was not human. It is then that they experience a strange trembling and Susan claims that it is the same thing that happened to them.
+The group runs and the camera captures what seems to be an alien spacecraft. They enter the spacecraft and Susan guides them inside to look for Holden. While looking for Holden, Susan activates a security alarm by grabbing an artifact that was on display. The group makes another escape and an explosion occurs where the spacecraft was located.
+The cave where the archaeologists found the skull is found by the group. They soon enter and explore the cave. Soon, they are attacked. It is then that they locate Holden. Moving further into the jungle, the group receives more attacks from an unseen enemy. Enemy attacks continue until the following morning. Everyone is killed one by one and a last shot shows an unknown entity killing the last soldier.
+An epilogue is shown where Susan claims that the skull they found shows that it's 70% human. That the alien is human kind's ancestor. Dr. Holden and Julie Evans are both officially listed as "Missing In Action".
+
+Cast
+Chelsea Vincent as Julia Evans
+Peter Pedrero as Peter Santos
+Philip Coc as Philip Royce
+Trey McCurley as Lieutenant Chris Thompson
+Daniela Flynn as Dr. Susan Neiman
+
+Reception
+Dread Central called Alien Origin "the worst film they’ve [The Asylum] churned out in years." They also commented that "There’s no plot, no sense that what we’re watching is actually building towards anything, no intrigue or suspense, nothing, nada, zilch. Not even any unintentional laughs. A complete step backwards from the progress The Asylum had been making thus far this year. Another review, also negative, states: " it actually starts out promisingly but then you realized that 90% of the movie is people silently walking through the jungle or shooting at unseen aliens firing what looks like roman candles at them."
+
+References
+
+External links
+Alien Origin at IMDb
+Official website

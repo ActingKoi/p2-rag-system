@@ -1,0 +1,10 @@
+# Cathouse: The Series
+
+Cathouse: The Series was an HBO reality television series following the professional lives of sex workers at the Moonlite Bunny Ranch, a legal brothel in Nevada. Following the HBO specials Cathouse (2002) and Cathouse 2: Back in the Saddle (2003), the first season of 11 episodes were broadcast in 2005, with the second season of 6 episodes airing in 2007.
+Unlike the earlier specials, which show only the negotiations between brothel workers and their clients, the series is more sexually explicit and shows sexual activity with customers. Regulars on the series include Moonlite owner Dennis Hof, his then girlfriend Sunset Thomas (a porn star who was also a Moonlite employee), Air Force Amy, Isabella Soprano, Brooke Taylor (who became Hof's girlfriend after Thomas departed), and Danielle.
+HBO aired the series special "Cathouse the Musical" on New Year's Day 2008 at 12:05 am, with "Cathouse: Come to the Party" airing the next month, and "Best of Cathouse" in April 2008. Three new specials aired in October, November, and December 2008: "Ménage à Trois", "What's on the Menu?", and "Three Ring Circus".
+The October 2009 Cathouse special "Sex, Guys and Videotape" included footage of the Bunny Ranch shot by the working girls themselves. The December 2010 special "Cat Call" was followed by the February 2011 special "Welcome Aboard", featuring a visit from Heidi Fleiss, and the December 2011 special "Frisky Business". These later installments introduce various different women, including Hof's newest girlfriend, Cami Parker, while continuing to feature Brooke Taylor, Bunny Love, and Air Force Amy.
+The original Cathouse special was released to DVD in North America in 2005. The first two seasons, plus "Cathouse: The Musical" were released in a 4-disc set in September 2008. A second DVD set released in December 2010 included "Come to the Party," the third season of three episodes, "Sex, Guys and Videotape" and the "Best of Cathouse."
+
+See also
+Prostitution in Nevada
