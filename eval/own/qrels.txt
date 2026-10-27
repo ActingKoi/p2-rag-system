@@ -6,3 +6,10 @@ h01 0 anime_fate_stay_night 1
 h01 0 anime_fate_stay_night_2006_tv_series 1
 h02 0 film_the_amazing_spider-man_film 1
 h03 0 anime_death_note_2006_tv_series 1
+h04 0 anime_one_piece 1
+h05 0 anime_naruto 1
+h06 0 anime_bleach_manga 1
+h07 0 tv_spongebob_squarepants 1
+h08 0 tv_regular_show 1
+h09 0 tv_adventure_time 1
+h10 0 film_the_martian_film 1

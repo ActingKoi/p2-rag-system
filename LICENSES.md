@@ -6,8 +6,8 @@ It cannot prove a license, and you remain responsible for every document you com
 
 ## Summary
 
-- Documents: 410
-- ok: 410 (of which 5 had a flag that you reviewed)
+- Documents: 414
+- ok: 414 (of which 5 had a flag that you reviewed)
 - flag, not yet reviewed: 0
 - fail: 0
 - Online lookups: not run (use `--online` on your own machine)
@@ -60,6 +60,7 @@ It cannot prove a license, and you remain responsible for every document you com
 | `anime_black_jack_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_black_rock_shooter` | cc-by-sa-4.0 | ok | - |
 | `anime_black_summoner` | cc-by-sa-4.0 | ok | - |
+| `anime_bleach_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_bleach_thousand-year_blood_war` | cc-by-sa-4.0 | ok | - |
 | `anime_blood` | cc-by-sa-4.0 | ok | - |
 | `anime_blue_dragon_tv_series` | cc-by-sa-4.0 | ok | - |
@@ -146,6 +147,8 @@ It cannot prove a license, and you remain responsible for every document you com
 | `anime_kamichu` | cc-by-sa-4.0 | ok | - |
 | `anime_la_corda_d_oro` | cc-by-sa-4.0 | ok | - |
 | `anime_le_chevalier_d_eon` | cc-by-sa-4.0 | ok | - |
+| `anime_naruto` | cc-by-sa-4.0 | ok | mentions Taylor and Francis without words about rights on the same line, which is not a flag |
+| `anime_one_piece` | cc-by-sa-4.0 | ok | - |
 | `anime_the_familiar_of_zero` | cc-by-sa-4.0 | ok | - |
 | `anime_the_galaxy_railways` | cc-by-sa-4.0 | ok | - |
 | `anime_the_genie_family` | cc-by-sa-4.0 | ok | - |
@@ -286,6 +289,7 @@ It cannot prove a license, and you remain responsible for every document you com
 | `film_the_american_2010_film` | cc-by-sa-4.0 | ok | - |
 | `film_the_american_scream` | cc-by-sa-4.0 | ok | - |
 | `film_the_amityville_haunting` | cc-by-sa-4.0 | ok | - |
+| `film_the_martian_film` | cc-by-sa-4.0 | ok | - |
 | `tv_1000_ways_to_die` | cc-by-sa-4.0 | ok | - |
 | `tv_10_items_or_less_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_12_corazones` | cc-by-sa-4.0 | ok | reviewed: the flagged line ("the audience votes for their favorite") is a description of the show format, not a credit or rights line; the page says "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply." (https://en.wikipedia.org/wiki/12_Corazones) |
