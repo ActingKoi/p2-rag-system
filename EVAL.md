@@ -396,6 +396,18 @@ Whichever option you chose, write these five things:
 For a second ablation, write its hypothesis here before you run it, and commit it, so your history shows that it came first.
 For the hand and claude queries, do the same with your prediction before you score.
 
+**A disclosure before the five things below:** this project's `own-origins` table was already generated and committed (as part of a full `p2 score` run, for other purposes) before I had chosen a stretch option or made the prediction below. I was not told this at the time and only learned it from Claude once we got to picking the stretch option, so the prediction below is not a clean pre-registration — the numbers existed first. I'm disclosing this rather than hiding it, because the point of pre-registration is to prove the prediction wasn't fit to the data, and in this case I can't prove that from git history alone.
+
+1. **Option 6: do model-written queries favor keyword search?**
+2. **What I did:** compared my 10 `hand` queries against the 20 `claude` queries already in `eval/own/queries.tsv` and `eval/own/qrels.txt`, both already judged, scored with `p2 score`.
+3. **Table:** `own-origins` in section 4.
+4. **My prediction:** I expected `bm25` to have the biggest hand-minus-claude gap, because Claude cannot misremember or paraphrase the way a human does, so its queries would reuse more of the article's own words and give keyword search a specific edge.
+
+   **What the interval lets me claim:** my prediction was wrong. `claude` queries score higher than `hand` queries on every system, not just `bm25` (hand minus claude on MRR@10: bm25 -0.256, dense -0.321, hybrid -0.260, rerank -0.017), and the *only* gap whose interval doesn't cross zero is `dense` (`[-0.613, -0.004]`, claude higher) — a pure embedding system with no keyword matching at all. If Claude's queries were specifically favoring keyword overlap, `bm25` should have shown the widest or most significant gap, not `dense`. Query length doesn't explain it either (hand averages 17.0 words, claude 18.0). So the data does not support "Claude reuses words, which helps keyword search" — it supports a plainer explanation: claude queries are easier for every system, probably because I (as the model) had already read each target article before writing its paraphrase, so those queries may line up more precisely with the article's actual distinguishing details than my own memory-based hand queries did.
+
+   What it does not let me claim: with only 10 hand queries, most of these intervals are wide enough that I cannot rule out `bm25` *also* having a real, smaller keyword-specific advantage that this gold set is too small to detect; and because the prediction wasn't clean pre-registration (see the disclosure above), I'm treating this as a post-hoc read of the data rather than a confirmed or falsified hypothesis.
+5. **What I'd do next:** write 10 more `hand` queries to shrink the group-size gap (10 vs 20) and rerun; if the `dense` gap holds up with a bigger hand group, that would support "claude queries are just easier," not "claude favors keyword search."
+
 ### Claim-level faithfulness check (option 2)
 
 Claude's verdicts from `p2 judge` against your own verdicts in the calibration file.
