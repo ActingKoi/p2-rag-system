@@ -41,7 +41,7 @@ If you rejected the alternative without measuring it, say why that was a fair ca
 "There was no alternative" is not an answer.
 Find the fork.
 
-TODO: your answer to prompt 2.
+One design choice where I could've gone two ways was the embedding model for dense (bge-small-en-v1.5) vs potion-retrieval-32M. I measured both with dense(bge) scoring MRR@10 = 0.614 and dense portion scoring MRR@10 = 0.687. The difference weas 0.073 and crosses zero but its not distinguishable with 30 queries. The difference is not provably better to choose the more expensive model bge but I would have to verify more to use potion which is cheaper/faster.
 
 ---
 
@@ -57,7 +57,7 @@ What did you do instead?
 If it genuinely never happened, say so plainly, and then say what you would have had to check in order to notice.
 Being honest here costs you far less than a story you cannot defend when you record your video.
 
-TODO: your answer to prompt 3.
+A minor suggestion that Claude proposed that I had to overrule was a sequel show being recommended for the query that I had for the original show. This didn't go into qrels.txt but was spotted in the claude conversation. This could cause issues because someone that wanted to be introduced to a show for the first time would get the wrong summary of a continuation and although not a entirely wrong answer it is still wrong. 
 
 ---
 
@@ -69,7 +69,7 @@ It could be a mean over a small query class, a difference whose interval include
 What would have to be true for you to trust it?
 Did you do anything to test it, and what did that show?
 
-TODO: your answer to prompt 4.
+One number that I do not trust is the rerank minus bm5 on the own corpus with a MRR@10 difference +0.095 crossing 0. Because while rerank technically beats bm25, the sample size is too small and the difference is not significant enough to prove my prediction in prompt 1 clearly. For me to trust it, I would need to run it over a larger sample size and make my connclusion then. 
 
 ---
 
@@ -80,4 +80,4 @@ One thing in your system, your corpus or your gold set that is not right, not fi
 What would you do next, and how would you find out whether it matters?
 Name the file, the query or the document where someone could look.
 
-TODO: your answer to prompt 5.
+One thing that is still nt right is the findings with dense vs dense_potion because the gold set of 30 queries is too small to tell apart the ~0.2 MRR differences between the two to make any clear statements. What I would do next would make more judged queries or a paired analysis isolating the paraphrase class only. To find this go to eval/own/queries.tsv and EVAL.md.
