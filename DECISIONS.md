@@ -26,7 +26,7 @@ Commit this answer before your first `uv run p2 score` on the own corpus.
 Git history then shows that the expectation came first, which is what lets it be wrong in a way that teaches you something.
 If you were surprised later, say so in prompt 4 or in EVAL.md; do not come back and rewrite this one.
 
-TODO: your answer to prompt 1.
+The corpus I chose in stage 2 was one on wikipedia pages on movies, shows, or anime because certain keywords could describe many movies, but it rewards remembering the general summary of the media even if the exact words are off. I personally chose media because I enjoy watching shows in my free time and would like to see how good it is finding the right title. I predict that rerank will win because most of the descriptions will be paraphrase heavy and less on exact keywords. Which is why bm25 would do the worst because finding the exact keywords can be difficult and describe many generic movies with the same plots such as zombies or superheros.
 
 ---
 
