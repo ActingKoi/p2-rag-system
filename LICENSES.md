@@ -6,8 +6,8 @@ It cannot prove a license, and you remain responsible for every document you com
 
 ## Summary
 
-- Documents: 360
-- ok: 360 (of which 4 had a flag that you reviewed)
+- Documents: 410
+- ok: 410 (of which 5 had a flag that you reviewed)
 - flag, not yet reviewed: 0
 - fail: 0
 - Online lookups: not run (use `--online` on your own machine)
@@ -17,17 +17,24 @@ It cannot prove a license, and you remain responsible for every document you com
 | docid | license | status | why |
 |---|---|---|---|
 | `anime_.hack_roots` | cc-by-sa-4.0 | ok | - |
+| `anime_3_seconds_later_he_turned_into_a_beast` | cc-by-sa-4.0 | ok | - |
 | `anime_absolute_boy` | cc-by-sa-4.0 | ok | - |
 | `anime_afro_samurai` | cc-by-sa-4.0 | ok | - |
 | `anime_ah_my_buddha` | cc-by-sa-4.0 | ok | - |
+| `anime_aharen-san_is_indecipherable` | cc-by-sa-4.0 | ok | - |
 | `anime_air_gear` | cc-by-sa-4.0 | ok | - |
 | `anime_air_video_game` | cc-by-sa-4.0 | ok | - |
 | `anime_akagi_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_akahori_gedou_hour_rabuge` | cc-by-sa-4.0 | ok | - |
+| `anime_akebi_s_sailor_uniform` | cc-by-sa-4.0 | ok | - |
+| `anime_akiba_maid_war` | cc-by-sa-4.0 | ok | - |
 | `anime_angel_heart_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_ani_kuri15` | cc-by-sa-4.0 | ok | - |
 | `anime_animal_yokoch` | cc-by-sa-4.0 | ok | - |
+| `anime_aoashi` | cc-by-sa-4.0 | ok | - |
 | `anime_aria_manga` | cc-by-sa-4.0 | ok | - |
+| `anime_arknights_tv_series` | cc-by-sa-4.0 | ok | - |
+| `anime_ascendance_of_a_bookworm` | cc-by-sa-4.0 | ok | - |
 | `anime_ayakashi_samurai_horror_tales` | cc-by-sa-4.0 | ok | - |
 | `anime_ayakashi_video_game` | cc-by-sa-4.0 | ok | - |
 | `anime_baccano` | cc-by-sa-4.0 | ok | - |
@@ -35,17 +42,25 @@ It cannot prove a license, and you remain responsible for every document you com
 | `anime_bakugan_battle_brawlers` | cc-by-sa-4.0 | ok | - |
 | `anime_ballad_of_a_shinigami` | cc-by-sa-4.0 | ok | - |
 | `anime_bamboo_blade` | cc-by-sa-4.0 | ok | - |
+| `anime_bang_dream` | cc-by-sa-4.0 | ok | - |
 | `anime_bartender_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_basilisk_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_battle_b-daman` | cc-by-sa-4.0 | ok | - |
+| `anime_beast_tamer` | cc-by-sa-4.0 | ok | - |
+| `anime_berserk_the_golden_age_arc` | cc-by-sa-4.0 | ok | - |
 | `anime_best_student_council` | cc-by-sa-4.0 | ok | - |
+| `anime_bibliophile_princess` | cc-by-sa-4.0 | ok | - |
 | `anime_big_windup` | cc-by-sa-4.0 | ok | - |
 | `anime_bikkuriman` | cc-by-sa-4.0 | ok | - |
 | `anime_binb_shimai_monogatari` | cc-by-sa-4.0 | ok | - |
 | `anime_binch_-tan_manga` | cc-by-sa-4.0 | ok | - |
+| `anime_birdie_wing` | cc-by-sa-4.0 | ok | - |
 | `anime_black_blood_brothers` | cc-by-sa-4.0 | ok | - |
 | `anime_black_cat_manga` | cc-by-sa-4.0 | ok | - |
 | `anime_black_jack_manga` | cc-by-sa-4.0 | ok | - |
+| `anime_black_rock_shooter` | cc-by-sa-4.0 | ok | - |
+| `anime_black_summoner` | cc-by-sa-4.0 | ok | - |
+| `anime_bleach_thousand-year_blood_war` | cc-by-sa-4.0 | ok | - |
 | `anime_blood` | cc-by-sa-4.0 | ok | - |
 | `anime_blue_dragon_tv_series` | cc-by-sa-4.0 | ok | - |
 | `anime_blue_drop` | cc-by-sa-4.0 | ok | - |
@@ -144,15 +159,18 @@ It cannot prove a license, and you remain responsible for every document you com
 | `film_111_first_street_film` | cc-by-sa-4.0 | ok | - |
 | `film_127_hours` | cc-by-sa-4.0 | ok | - |
 | `film_13_2010_film` | cc-by-sa-4.0 | ok | - |
+| `film_13_the_musical` | cc-by-sa-4.0 | ok | - |
 | `film_16-love` | cc-by-sa-4.0 | ok | - |
 | `film_16_wishes` | cc-by-sa-4.0 | ok | - |
 | `film_17_miracles` | cc-by-sa-4.0 | ok | - |
 | `film_180_2011_american_film` | cc-by-sa-4.0 | ok | - |
 | `film_180_degrees_south_conquerors_of_the_useless` | cc-by-sa-4.0 | ok | - |
+| `film_1946_the_mistranslation_that_shifted_culture` | cc-by-sa-4.0 | ok | - |
 | `film_1_2013_film` | cc-by-sa-4.0 | ok | - |
 | `film_1_a_minute` | cc-by-sa-4.0 | ok | - |
 | `film_1_film` | cc-by-sa-4.0 | ok | - |
 | `film_2-headed_shark_attack` | cc-by-sa-4.0 | ok | - |
+| `film_2000_mules` | cc-by-sa-4.0 | ok | - |
 | `film_2001_maniacs_field_of_screams` | cc-by-sa-4.0 | ok | - |
 | `film_200_mph` | cc-by-sa-4.0 | ok | - |
 | `film_2016_obama_s_america` | cc-by-sa-4.0 | ok | - |
@@ -178,30 +196,40 @@ It cannot prove a license, and you remain responsible for every document you com
 | `film_8213_gacy_house` | cc-by-sa-4.0 | ok | - |
 | `film_8_the_mormon_proposition` | cc-by-sa-4.0 | ok | - |
 | `film_96_minutes_2011_film` | cc-by-sa-4.0 | ok | - |
+| `film_9_bullets` | cc-by-sa-4.0 | ok | - |
 | `film_abandoned_2010_film` | cc-by-sa-4.0 | ok | - |
+| `film_abandoned_2022_film` | cc-by-sa-4.0 | ok | - |
 | `film_abandoned_mine` | cc-by-sa-4.0 | ok | - |
+| `film_abby_s_list` | cc-by-sa-4.0 | ok | - |
 | `film_abducted_the_carlina_white_story` | cc-by-sa-4.0 | ok | - |
 | `film_abduction_2011_film` | cc-by-sa-4.0 | ok | - |
 | `film_about_cherry` | cc-by-sa-4.0 | ok | - |
 | `film_abraham_lincoln_vampire_hunter` | cc-by-sa-4.0 | ok | - |
 | `film_abraham_lincoln_vs._zombies` | cc-by-sa-4.0 | ok | - |
 | `film_absentia_film` | cc-by-sa-4.0 | ok | - |
+| `film_accident_man_hitman_s_holiday` | cc-by-sa-4.0 | ok | - |
 | `film_across_the_line_the_exodus_of_charlie_wright` | cc-by-sa-4.0 | ok | - |
 | `film_act_of_valor` | cc-by-sa-4.0 | ok | - |
 | `film_adventures_of_serial_buddies` | cc-by-sa-4.0 | ok | - |
 | `film_african_cats` | cc-by-sa-4.0 | ok | - |
 | `film_after_2012_film` | cc-by-sa-4.0 | ok | - |
+| `film_after_ever_happy` | cc-by-sa-4.0 | ok | - |
 | `film_after_porn_ends` | cc-by-sa-4.0 | ok | - |
 | `film_after_the_wizard` | cc-by-sa-4.0 | ok | - |
 | `film_aftershock_2012_film` | cc-by-sa-4.0 | ok | - |
+| `film_aftershock_2022_film` | cc-by-sa-4.0 | ok | - |
+| `film_aftersun` | cc-by-sa-4.0 | ok | - |
 | `film_age_of_the_dragons` | cc-by-sa-4.0 | ok | - |
+| `film_agent_game` | cc-by-sa-4.0 | ok | - |
 | `film_agents_of_secret_stuff` | cc-by-sa-4.0 | ok | - |
 | `film_ai_weiwei_never_sorry` | cc-by-sa-4.0 | ok | - |
 | `film_air_collision` | cc-by-sa-4.0 | ok | - |
 | `film_airline_disaster` | cc-by-sa-4.0 | ok | - |
+| `film_aisha_2022_film` | cc-by-sa-4.0 | ok | - |
 | `film_akkarakazhchakal_the_movie` | cc-by-sa-4.0 | ok | - |
 | `film_albert_nobbs` | cc-by-sa-4.0 | ok | - |
 | `film_alex_cross_film` | cc-by-sa-4.0 | ok | - |
+| `film_alice_2022_film` | cc-by-sa-4.0 | ok | - |
 | `film_alice_in_murderland_film` | cc-by-sa-4.0 | ok | - |
 | `film_alice_in_wonderland_2010_film` | cc-by-sa-4.0 | ok | - |
 | `film_alien_origin` | cc-by-sa-4.0 | ok | - |
@@ -241,11 +269,13 @@ It cannot prove a license, and you remain responsible for every document you com
 | `film_the_10_commandments_of_chloe` | cc-by-sa-4.0 | ok | - |
 | `film_the_12_disasters_of_christmas` | cc-by-sa-4.0 | ok | - |
 | `film_the_19th_wife_film` | cc-by-sa-4.0 | ok | - |
+| `film_the_355` | cc-by-sa-4.0 | ok | - |
 | `film_the_41-year-old_virgin_who_knocked_up_sarah_marshall_and_fe` | cc-by-sa-4.0 | ok | - |
 | `film_the_5th_quarter` | cc-by-sa-4.0 | ok | - |
 | `film_the_7_adventures_of_sinbad` | cc-by-sa-4.0 | ok | - |
 | `film_the_a-team_film` | cc-by-sa-4.0 | ok | - |
 | `film_the_abcs_of_death` | cc-by-sa-4.0 | ok | - |
+| `film_the_adam_project` | cc-by-sa-4.0 | ok | - |
 | `film_the_adjustment_bureau` | cc-by-sa-4.0 | ok | - |
 | `film_the_adonis_factor` | cc-by-sa-4.0 | ok | - |
 | `film_the_afflicted_film` | cc-by-sa-4.0 | ok | - |
@@ -260,6 +290,7 @@ It cannot prove a license, and you remain responsible for every document you com
 | `tv_10_items_or_less_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_12_corazones` | cc-by-sa-4.0 | ok | reviewed: the flagged line ("the audience votes for their favorite") is a description of the show format, not a credit or rights line; the page says "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply." (https://en.wikipedia.org/wiki/12_Corazones) |
 | `tv_1600_pennsylvania_avenue_tv_program` | cc-by-sa-4.0 | ok | - |
+| `tv_1923_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_19_kids_and_counting` | cc-by-sa-4.0 | ok | - |
 | `tv_1_000_places_to_see_before_you_die_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_1_vs._100_american_game_show` | cc-by-sa-4.0 | ok | - |
@@ -271,29 +302,41 @@ It cannot prove a license, and you remain responsible for every document you com
 | `tv_3_lbs` | cc-by-sa-4.0 | ok | - |
 | `tv_4real` | cc-by-sa-4.0 | ok | - |
 | `tv_50_cent_the_money_and_the_power` | cc-by-sa-4.0 | ok | - |
+| `tv_61st_street_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_8th_ocean` | cc-by-sa-4.0 | ok | - |
 | `tv_90210_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_acceptable.tv` | cc-by-sa-4.0 | ok | - |
 | `tv_ace_of_cakes` | cc-by-sa-4.0 | ok | - |
 | `tv_acorralada` | cc-by-sa-4.0 | ok | - |
 | `tv_adventure_camp` | cc-by-sa-4.0 | ok | - |
+| `tv_adventure_time` | cc-by-sa-4.0 | ok | reviewed: the flagged line ("title sequence and theme song have stayed mostly...") describes the show's opening credits, not a third-party rights claim; the page says "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply." (https://en.wikipedia.org/wiki/Adventure_Time) |
+| `tv_aew_battle_of_the_belts` | cc-by-sa-4.0 | ok | - |
 | `tv_african_american_lives` | cc-by-sa-4.0 | ok | - |
 | `tv_after_words` | cc-by-sa-4.0 | ok | - |
 | `tv_age_of_love_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_al_punto` | cc-by-sa-4.0 | ok | - |
+| `tv_alaska_daily` | cc-by-sa-4.0 | ok | - |
+| `tv_alex_wagner_tonight` | cc-by-sa-4.0 | ok | - |
 | `tv_aliens_in_america` | cc-by-sa-4.0 | ok | - |
+| `tv_all_american_homecoming` | cc-by-sa-4.0 | ok | - |
+| `tv_all_star_shore` | cc-by-sa-4.0 | ok | - |
 | `tv_amarte_as_frijolito` | cc-by-sa-4.0 | ok | - |
+| `tv_amazon_music_live` | cc-by-sa-4.0 | ok | - |
 | `tv_america_at_a_crossroads` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_ballroom_challenge` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_game_the_super_bowl_champions` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_got_talent` | cc-by-sa-4.0 | ok | reviewed: the flagged line ("Osbourne left the program following a dispute") describes a cast change, not a contractor notice about the text itself; the page says "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply." (https://en.wikipedia.org/wiki/America%27s_Got_Talent) |
+| `tv_america_s_got_talent_extreme` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_heartland` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_most_smartest_model` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_newsroom` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_next_producer` | cc-by-sa-4.0 | ok | - |
 | `tv_america_s_psychic_challenge` | cc-by-sa-4.0 | ok | - |
+| `tv_america_s_test_kitchen_the_next_generation` | cc-by-sa-4.0 | ok | - |
+| `tv_america_the_beautiful_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_american_dream_derby` | cc-by-sa-4.0 | ok | - |
 | `tv_american_gangster_tv_series` | cc-by-sa-4.0 | ok | - |
+| `tv_american_gigolo_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_american_greed` | cc-by-sa-4.0 | ok | - |
 | `tv_american_heiress` | cc-by-sa-4.0 | ok | - |
 | `tv_american_idol_extra` | cc-by-sa-4.0 | ok | - |
@@ -358,15 +401,22 @@ It cannot prove a license, and you remain responsible for every document you com
 | `tv_cash_cab_american_game_show` | cc-by-sa-4.0 | ok | - |
 | `tv_cathouse_the_series` | cc-by-sa-4.0 | ok | - |
 | `tv_celebrity_charades` | cc-by-sa-4.0 | ok | - |
+| `tv_dijon_talton` | cc-by-sa-4.0 | ok | - |
 | `tv_donny_deutsch` | cc-by-sa-4.0 | ok | - |
 | `tv_el_amor_no_tiene_precio` | cc-by-sa-4.0 | ok | - |
 | `tv_la_academia_usa` | cc-by-sa-4.0 | ok | - |
 | `tv_list_of_programs_broadcast_by_tlc` | cc-by-sa-4.0 | ok | - |
 | `tv_out_of_the_wild` | cc-by-sa-4.0 | ok | - |
+| `tv_regular_show` | cc-by-sa-4.0 | ok | - |
 | `tv_ruud_kleinpaste` | cc-by-sa-4.0 | ok | - |
+| `tv_spongebob_squarepants` | cc-by-sa-4.0 | ok | mentions Springer without words about rights on the same line, which is not a flag |
+| `tv_teen_titans_go` | cc-by-sa-4.0 | ok | - |
 | `tv_the_5ive` | cc-by-sa-4.0 | ok | - |
 | `tv_the_a-list_2007_tv_series` | cc-by-sa-4.0 | ok | - |
 | `tv_the_academy_american_tv_series` | cc-by-sa-4.0 | ok | - |
+| `tv_the_adam_friedland_show` | cc-by-sa-4.0 | ok | - |
+| `tv_the_afterparty_tv_series` | cc-by-sa-4.0 | ok | - |
+| `tv_the_amazing_world_of_gumball` | cc-by-sa-4.0 | ok | - |
 | `tv_the_apprentice_martha_stewart` | cc-by-sa-4.0 | ok | - |
 | `tv_the_bedford_diaries` | cc-by-sa-4.0 | ok | - |
 | `tv_the_big_bang_theory` | cc-by-sa-4.0 | ok | - |

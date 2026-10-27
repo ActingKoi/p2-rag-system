@@ -2,3 +2,7 @@
 # rel is 1 for a relevant document, unless EVAL.md declares graded labels; every query needs at least one relevant document.
 # 598E: commit your filled-in PREREG.md before the first judgment line goes into this file.
 # Lines that start with # are comments.
+h01 0 anime_fate_stay_night 1
+h01 0 anime_fate_stay_night_2006_tv_series 1
+h02 0 film_the_amazing_spider-man_film 1
+h03 0 anime_death_note_2006_tv_series 1

@@ -6,9 +6,9 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 
 ## Summary
 
-- Documents: 360 (the final check needs at least 200)
-- Words: 512,755
-- Estimated tokens (words times 1.4): 717,857 (`p2 check` warns above 800,000 and fails above 1,000,000)
+- Documents: 410 (the final check needs at least 200)
+- Words: 600,434
+- Estimated tokens (words times 1.4): 840,607 (`p2 check` warns above 800,000 and fails above 1,000,000)
 - Flagged documents: 0
 
 ## Documents
@@ -16,17 +16,24 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | docid | words | characters per page | flags | cleaning |
 |---|---:|---:|---|---|
 | `anime_.hack_roots` | 2,435 | - | - | - |
+| `anime_3_seconds_later_he_turned_into_a_beast` | 285 | - | - | - |
 | `anime_absolute_boy` | 805 | - | - | - |
 | `anime_afro_samurai` | 2,186 | - | - | - |
 | `anime_ah_my_buddha` | 3,357 | - | - | - |
+| `anime_aharen-san_is_indecipherable` | 1,361 | - | - | - |
 | `anime_air_gear` | 1,246 | - | - | - |
 | `anime_air_video_game` | 5,257 | - | - | - |
 | `anime_akagi_manga` | 2,397 | - | - | - |
 | `anime_akahori_gedou_hour_rabuge` | 368 | - | - | - |
+| `anime_akebi_s_sailor_uniform` | 2,019 | - | - | - |
+| `anime_akiba_maid_war` | 1,253 | - | - | - |
 | `anime_angel_heart_manga` | 1,647 | - | - | - |
 | `anime_ani_kuri15` | 541 | - | - | - |
 | `anime_animal_yokoch` | 1,815 | - | - | - |
+| `anime_aoashi` | 1,890 | - | - | - |
 | `anime_aria_manga` | 6,641 | - | - | reference list dropped, 294 characters (heading) |
+| `anime_arknights_tv_series` | 1,362 | - | - | - |
+| `anime_ascendance_of_a_bookworm` | 1,437 | - | - | - |
 | `anime_ayakashi_samurai_horror_tales` | 2,418 | - | - | - |
 | `anime_ayakashi_video_game` | 1,181 | - | - | - |
 | `anime_baccano` | 4,225 | - | - | - |
@@ -34,17 +41,25 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `anime_bakugan_battle_brawlers` | 3,335 | - | - | - |
 | `anime_ballad_of_a_shinigami` | 1,823 | - | - | - |
 | `anime_bamboo_blade` | 495 | - | - | - |
+| `anime_bang_dream` | 7,227 | - | - | - |
 | `anime_bartender_manga` | 1,931 | - | - | - |
 | `anime_basilisk_manga` | 828 | - | - | reference list dropped, 382 characters (heading) |
 | `anime_battle_b-daman` | 6,430 | - | - | - |
+| `anime_beast_tamer` | 1,581 | - | - | - |
+| `anime_berserk_the_golden_age_arc` | 2,006 | - | - | - |
 | `anime_best_student_council` | 3,531 | - | - | - |
+| `anime_bibliophile_princess` | 817 | - | - | - |
 | `anime_big_windup` | 3,033 | - | - | - |
 | `anime_bikkuriman` | 693 | - | - | - |
 | `anime_binb_shimai_monogatari` | 1,075 | - | - | - |
 | `anime_binch_-tan_manga` | 1,360 | - | - | - |
+| `anime_birdie_wing` | 1,705 | - | - | - |
 | `anime_black_blood_brothers` | 3,483 | - | - | reference list dropped, 1,673 characters (heading) |
 | `anime_black_cat_manga` | 2,319 | - | - | - |
 | `anime_black_jack_manga` | 8,218 | - | - | - |
+| `anime_black_rock_shooter` | 1,917 | - | - | - |
+| `anime_black_summoner` | 1,455 | - | - | - |
+| `anime_bleach_thousand-year_blood_war` | 1,685 | - | - | - |
 | `anime_blood` | 2,033 | - | - | - |
 | `anime_blue_dragon_tv_series` | 1,569 | - | - | - |
 | `anime_blue_drop` | 1,890 | - | - | - |
@@ -143,15 +158,18 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `film_111_first_street_film` | 260 | - | - | - |
 | `film_127_hours` | 2,171 | - | - | - |
 | `film_13_2010_film` | 1,033 | - | - | - |
+| `film_13_the_musical` | 976 | - | - | - |
 | `film_16-love` | 925 | - | - | - |
 | `film_16_wishes` | 956 | - | - | - |
 | `film_17_miracles` | 361 | - | - | reference list dropped, 614 characters (heading) |
 | `film_180_2011_american_film` | 839 | - | - | - |
 | `film_180_degrees_south_conquerors_of_the_useless` | 899 | - | - | - |
+| `film_1946_the_mistranslation_that_shifted_culture` | 639 | - | - | - |
 | `film_1_2013_film` | 1,173 | - | - | - |
 | `film_1_a_minute` | 340 | - | - | - |
 | `film_1_film` | 1,414 | - | - | - |
 | `film_2-headed_shark_attack` | 1,189 | - | - | - |
+| `film_2000_mules` | 4,241 | - | - | reference list dropped, 173 characters (heading) |
 | `film_2001_maniacs_field_of_screams` | 529 | - | - | reference list dropped, 134 characters (heading) |
 | `film_200_mph` | 642 | - | - | - |
 | `film_2016_obama_s_america` | 1,732 | - | - | reference list dropped, 236 characters (heading) |
@@ -177,30 +195,40 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `film_8213_gacy_house` | 301 | - | - | - |
 | `film_8_the_mormon_proposition` | 1,609 | - | - | - |
 | `film_96_minutes_2011_film` | 705 | - | - | - |
+| `film_9_bullets` | 910 | - | - | - |
 | `film_abandoned_2010_film` | 530 | - | - | - |
+| `film_abandoned_2022_film` | 780 | - | - | - |
 | `film_abandoned_mine` | 288 | - | - | - |
+| `film_abby_s_list` | 612 | - | - | - |
 | `film_abducted_the_carlina_white_story` | 312 | - | - | - |
 | `film_abduction_2011_film` | 1,680 | - | - | - |
 | `film_about_cherry` | 370 | - | - | - |
 | `film_abraham_lincoln_vampire_hunter` | 1,836 | - | - | - |
 | `film_abraham_lincoln_vs._zombies` | 981 | - | - | - |
 | `film_absentia_film` | 1,091 | - | - | - |
+| `film_accident_man_hitman_s_holiday` | 1,083 | - | - | - |
 | `film_across_the_line_the_exodus_of_charlie_wright` | 753 | - | - | - |
 | `film_act_of_valor` | 2,035 | - | - | - |
 | `film_adventures_of_serial_buddies` | 321 | - | - | - |
 | `film_african_cats` | 1,984 | - | - | - |
 | `film_after_2012_film` | 2,128 | - | - | - |
+| `film_after_ever_happy` | 1,089 | - | - | - |
 | `film_after_porn_ends` | 332 | - | - | - |
 | `film_after_the_wizard` | 266 | - | - | - |
 | `film_aftershock_2012_film` | 895 | - | - | - |
+| `film_aftershock_2022_film` | 333 | - | - | - |
+| `film_aftersun` | 1,787 | - | - | - |
 | `film_age_of_the_dragons` | 694 | - | - | - |
+| `film_agent_game` | 449 | - | - | - |
 | `film_agents_of_secret_stuff` | 917 | - | - | - |
 | `film_ai_weiwei_never_sorry` | 611 | - | - | - |
 | `film_air_collision` | 648 | - | - | - |
 | `film_airline_disaster` | 655 | - | - | - |
+| `film_aisha_2022_film` | 261 | - | - | - |
 | `film_akkarakazhchakal_the_movie` | 444 | - | - | - |
 | `film_albert_nobbs` | 1,020 | - | - | - |
 | `film_alex_cross_film` | 1,198 | - | - | - |
+| `film_alice_2022_film` | 537 | - | - | - |
 | `film_alice_in_murderland_film` | 293 | - | - | - |
 | `film_alice_in_wonderland_2010_film` | 6,259 | - | - | - |
 | `film_alien_origin` | 726 | - | - | - |
@@ -240,11 +268,13 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `film_the_10_commandments_of_chloe` | 1,131 | - | - | - |
 | `film_the_12_disasters_of_christmas` | 385 | - | - | - |
 | `film_the_19th_wife_film` | 316 | - | - | - |
+| `film_the_355` | 2,136 | - | - | - |
 | `film_the_41-year-old_virgin_who_knocked_up_sarah_marshall_and_fe` | 752 | - | - | - |
 | `film_the_5th_quarter` | 355 | - | - | - |
 | `film_the_7_adventures_of_sinbad` | 798 | - | - | - |
 | `film_the_a-team_film` | 2,722 | - | - | - |
 | `film_the_abcs_of_death` | 643 | - | - | - |
+| `film_the_adam_project` | 1,452 | - | - | - |
 | `film_the_adjustment_bureau` | 1,769 | - | - | - |
 | `film_the_adonis_factor` | 379 | - | - | - |
 | `film_the_afflicted_film` | 737 | - | - | - |
@@ -259,6 +289,7 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `tv_10_items_or_less_tv_series` | 564 | - | - | - |
 | `tv_12_corazones` | 671 | - | - | - |
 | `tv_1600_pennsylvania_avenue_tv_program` | 633 | - | - | - |
+| `tv_1923_tv_series` | 2,293 | - | - | - |
 | `tv_19_kids_and_counting` | 3,339 | - | - | - |
 | `tv_1_000_places_to_see_before_you_die_tv_series` | 284 | - | - | - |
 | `tv_1_vs._100_american_game_show` | 2,268 | - | - | - |
@@ -270,29 +301,41 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `tv_3_lbs` | 262 | - | - | - |
 | `tv_4real` | 486 | - | - | - |
 | `tv_50_cent_the_money_and_the_power` | 347 | - | - | - |
+| `tv_61st_street_tv_series` | 651 | - | - | - |
 | `tv_8th_ocean` | 287 | - | - | - |
 | `tv_90210_tv_series` | 3,521 | - | - | - |
 | `tv_acceptable.tv` | 589 | - | - | - |
 | `tv_ace_of_cakes` | 707 | - | - | - |
 | `tv_acorralada` | 817 | - | - | - |
 | `tv_adventure_camp` | 496 | - | - | - |
+| `tv_adventure_time` | 9,008 | - | - | - |
+| `tv_aew_battle_of_the_belts` | 3,339 | - | - | - |
 | `tv_african_american_lives` | 822 | - | - | reference list dropped, 991 characters (heading) |
 | `tv_after_words` | 275 | - | - | - |
 | `tv_age_of_love_tv_series` | 554 | - | - | - |
 | `tv_al_punto` | 899 | - | - | - |
+| `tv_alaska_daily` | 611 | - | - | - |
+| `tv_alex_wagner_tonight` | 493 | - | - | - |
 | `tv_aliens_in_america` | 501 | - | - | - |
+| `tv_all_american_homecoming` | 1,314 | - | - | - |
+| `tv_all_star_shore` | 2,816 | - | - | - |
 | `tv_amarte_as_frijolito` | 1,128 | - | - | - |
+| `tv_amazon_music_live` | 593 | - | - | - |
 | `tv_america_at_a_crossroads` | 456 | - | - | - |
 | `tv_america_s_ballroom_challenge` | 257 | - | - | - |
 | `tv_america_s_game_the_super_bowl_champions` | 1,483 | - | - | - |
 | `tv_america_s_got_talent` | 8,000 | - | - | - |
+| `tv_america_s_got_talent_extreme` | 550 | - | - | - |
 | `tv_america_s_heartland` | 436 | - | - | - |
 | `tv_america_s_most_smartest_model` | 444 | - | - | - |
 | `tv_america_s_newsroom` | 701 | - | - | - |
 | `tv_america_s_next_producer` | 518 | - | - | - |
 | `tv_america_s_psychic_challenge` | 450 | - | - | - |
+| `tv_america_s_test_kitchen_the_next_generation` | 289 | - | - | - |
+| `tv_america_the_beautiful_tv_series` | 360 | - | - | - |
 | `tv_american_dream_derby` | 292 | - | - | - |
 | `tv_american_gangster_tv_series` | 528 | - | - | - |
+| `tv_american_gigolo_tv_series` | 655 | - | - | - |
 | `tv_american_greed` | 630 | - | - | reference list dropped, 858 characters (heading) |
 | `tv_american_heiress` | 487 | - | - | - |
 | `tv_american_idol_extra` | 2,281 | - | - | - |
@@ -357,15 +400,22 @@ Running ingest again adds to the table and replaces the "last run" section, and 
 | `tv_cash_cab_american_game_show` | 1,961 | - | - | - |
 | `tv_cathouse_the_series` | 321 | - | - | reference list dropped, 182 characters (heading) |
 | `tv_celebrity_charades` | 538 | - | - | - |
+| `tv_dijon_talton` | 547 | - | - | - |
 | `tv_donny_deutsch` | 1,031 | - | - | - |
 | `tv_el_amor_no_tiene_precio` | 1,082 | - | - | - |
 | `tv_la_academia_usa` | 584 | - | - | - |
 | `tv_list_of_programs_broadcast_by_tlc` | 337 | - | - | - |
 | `tv_out_of_the_wild` | 810 | - | - | - |
+| `tv_regular_show` | 3,064 | - | - | - |
 | `tv_ruud_kleinpaste` | 280 | - | - | - |
+| `tv_spongebob_squarepants` | 8,918 | - | - | reference list dropped, 2,171 characters (heading) |
+| `tv_teen_titans_go` | 1,170 | - | - | - |
 | `tv_the_5ive` | 280 | - | - | - |
 | `tv_the_a-list_2007_tv_series` | 262 | - | - | - |
 | `tv_the_academy_american_tv_series` | 543 | - | - | - |
+| `tv_the_adam_friedland_show` | 1,322 | - | - | - |
+| `tv_the_afterparty_tv_series` | 2,130 | - | - | - |
+| `tv_the_amazing_world_of_gumball` | 2,271 | - | - | - |
 | `tv_the_apprentice_martha_stewart` | 7,365 | - | - | - |
 | `tv_the_bedford_diaries` | 537 | - | - | - |
 | `tv_the_big_bang_theory` | 8,400 | - | - | - |
