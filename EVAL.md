@@ -292,7 +292,7 @@ Which differences are distinguishable and which are not, at your gold-set size?
 Do the `hand` queries and the `claude` queries tell the same story?
 Did your prediction in `DECISIONS.md` prompt 1 hold?
 
-On the 30 own-corpus queries, `bm25` clearly beats `dense` (MRR@10 difference -0.203, `[-0.332, -0.086]`, bm25 higher) and `hybrid` clearly beats `dense` (+0.176, `[+0.081, +0.284]`), so dense is distinguishably the weakest system here. But `rerank` vs `bm25` is **not** distinguishable (+0.095, `[-0.013, +0.214]`), and `hybrid` vs `bm25` is not distinguishable either (-0.026, `[-0.099, +0.034]`) — only `rerank` vs `dense` and `rerank` vs `hybrid` clearly favor rerank. My prediction in `DECISIONS.md` prompt 1 (rerank wins clearly, bm25 does worst because of generic/paraphrase-heavy keyword overlap) only half held: bm25 did *not* do worst — dense did — and rerank's edge over bm25, while numerically the biggest point estimate for rerank in my favor, isn't statistically confirmed at 30 queries. The `hand` and `claude` queries don't obviously tell different stories in the aggregate numbers (both are class `paraphrase`), but I have not broken the interval out by origin separately.
+On the 30 own-corpus queries, `bm25` clearly beats `dense` (MRR@10 difference -0.203, `[-0.332, -0.086]`, bm25 higher) and `hybrid` clearly beats `dense` (+0.176, `[+0.081, +0.284]`), so dense is distinguishably the weakest system here. But `rerank` vs `bm25` is **not** distinguishable (+0.095, `[-0.013, +0.214]`), and `hybrid` vs `bm25` is not distinguishable either (-0.026, `[-0.099, +0.034]`) — only `rerank` vs `dense` and `rerank` vs `hybrid` clearly favor rerank. My prediction in `DECISIONS.md` prompt 1 (rerank wins clearly, bm25 does worst because of generic/paraphrase-heavy keyword overlap) only half held: bm25 did *not* do worst — dense did — and rerank's edge over bm25, while numerically the biggest point estimate for rerank in my favor, isn't statistically confirmed at 30 queries. The claude queries were easier across the board, confirmed only on dense, probably because they reuse more of the article's wording.
 
 ---
 
@@ -508,7 +508,7 @@ _No stretch runs yet (stretch option 5): `uv run p2 run --corpus own --queries e
 
 ### Your stretch
 
-Write the five things here.
+Option 4 (a second ablation, `bm25_lab`): the hypothesis and the five things are written at the top of this section.
 
 ---
 
