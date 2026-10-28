@@ -163,6 +163,7 @@ Scores per system on your gold set.
 | dense | 0.783 | 0.614 | 0.655 |
 | hybrid | 0.850 | 0.790 | 0.804 |
 | rerank | 0.917 | 0.911 | 0.904 |
+| ablation/bm25_lab | 0.917 | 0.816 | 0.840 |
 | ablation/dense_potion | 0.850 | 0.687 | 0.723 |
 
 30 judged queries; nDCG uses binary labels; a random ranking of the 414 documents would get recall@10 near 0.024.
@@ -185,6 +186,9 @@ The same scores per query class.
 | rerank | Recall@10 | 0.917 |
 | rerank | MRR@10 | 0.911 |
 | rerank | nDCG@10 | 0.904 |
+| ablation/bm25_lab | Recall@10 | 0.917 |
+| ablation/bm25_lab | MRR@10 | 0.816 |
+| ablation/bm25_lab | nDCG@10 | 0.840 |
 | ablation/dense_potion | Recall@10 | 0.850 |
 | ablation/dense_potion | MRR@10 | 0.687 |
 | ablation/dense_potion | nDCG@10 | 0.723 |
@@ -208,6 +212,9 @@ Once both groups have queries, the table also says whether `bm25`'s lead over `d
 | rerank | Recall@10 | 0.850 | 0.950 | -0.100 | [-0.350, +0.100] | not distinguishable |
 | rerank | MRR@10 | 0.900 | 0.917 | -0.017 | [-0.250, +0.183] | not distinguishable |
 | rerank | nDCG@10 | 0.861 | 0.925 | -0.064 | [-0.300, +0.136] | not distinguishable |
+| ablation/bm25_lab | Recall@10 | 0.750 | 1.000 | -0.250 | [-0.500, +0.000] | not distinguishable |
+| ablation/bm25_lab | MRR@10 | 0.646 | 0.902 | -0.256 | [-0.556, +0.032] | not distinguishable |
+| ablation/bm25_lab | nDCG@10 | 0.669 | 0.926 | -0.257 | [-0.543, +0.006] | not distinguishable |
 | ablation/dense_potion | Recall@10 | 0.850 | 0.850 | +0.000 | [-0.250, +0.250] | not distinguishable |
 | ablation/dense_potion | MRR@10 | 0.617 | 0.723 | -0.106 | [-0.410, +0.194] | not distinguishable |
 | ablation/dense_potion | nDCG@10 | 0.660 | 0.754 | -0.094 | [-0.369, +0.181] | not distinguishable |
@@ -250,6 +257,18 @@ Differences between every pair of systems.
 | rerank minus hybrid | Recall@10 | +0.067 | [+0.000, +0.167] | 0.130 | not distinguishable |
 | rerank minus hybrid | MRR@10 | +0.121 | [+0.004, +0.251] | 0.185 | rerank higher |
 | rerank minus hybrid | nDCG@10 | +0.100 | [+0.000, +0.215] | 0.157 | not distinguishable |
+| ablation/bm25_lab minus bm25 | Recall@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus bm25 | MRR@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus bm25 | nDCG@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus dense | Recall@10 | +0.133 | [+0.033, +0.267] | 0.177 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | MRR@10 | +0.203 | [+0.086, +0.332] | 0.179 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | nDCG@10 | +0.186 | [+0.085, +0.297] | 0.153 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus hybrid | Recall@10 | +0.067 | [+0.000, +0.167] | 0.130 | not distinguishable |
+| ablation/bm25_lab minus hybrid | MRR@10 | +0.026 | [-0.034, +0.099] | 0.096 | not distinguishable |
+| ablation/bm25_lab minus hybrid | nDCG@10 | +0.037 | [-0.016, +0.104] | 0.089 | not distinguishable |
+| ablation/bm25_lab minus rerank | Recall@10 | +0.000 | [-0.100, +0.100] | 0.134 | not distinguishable |
+| ablation/bm25_lab minus rerank | MRR@10 | -0.095 | [-0.214, +0.013] | 0.168 | not distinguishable |
+| ablation/bm25_lab minus rerank | nDCG@10 | -0.063 | [-0.163, +0.025] | 0.137 | not distinguishable |
 | ablation/dense_potion minus bm25 | Recall@10 | -0.067 | [-0.200, +0.067] | 0.187 | not distinguishable |
 | ablation/dense_potion minus bm25 | MRR@10 | -0.129 | [-0.247, -0.027] | 0.164 | bm25 higher |
 | ablation/dense_potion minus bm25 | nDCG@10 | -0.118 | [-0.226, -0.025] | 0.147 | bm25 higher |
@@ -262,8 +281,11 @@ Differences between every pair of systems.
 | ablation/dense_potion minus rerank | Recall@10 | -0.067 | [-0.167, +0.000] | 0.130 | not distinguishable |
 | ablation/dense_potion minus rerank | MRR@10 | -0.224 | [-0.368, -0.083] | 0.206 | rerank higher |
 | ablation/dense_potion minus rerank | nDCG@10 | -0.181 | [-0.306, -0.065] | 0.174 | rerank higher |
+| ablation/dense_potion minus ablation/bm25_lab | Recall@10 | -0.067 | [-0.200, +0.067] | 0.187 | not distinguishable |
+| ablation/dense_potion minus ablation/bm25_lab | MRR@10 | -0.129 | [-0.247, -0.027] | 0.164 | ablation/bm25_lab higher |
+| ablation/dense_potion minus ablation/bm25_lab | nDCG@10 | -0.118 | [-0.226, -0.025] | 0.147 | ablation/bm25_lab higher |
 
-The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time. Two systems that score the same on every query have no interval to speak of, so their MDD is shown as -.
 <!-- p2:end own-pairs -->
 
 Which differences are distinguishable and which are not, at your gold-set size?
@@ -285,6 +307,18 @@ The run file for it lives in `runs/own/ablation/`.
 <!-- p2:begin own-ablation -->
 | Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
 | --- | --- | ---: | ---: | ---: | --- |
+| ablation/bm25_lab minus bm25 | Recall@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus bm25 | MRR@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus bm25 | nDCG@10 | +0.000 | [+0.000, +0.000] | - | identical on every query |
+| ablation/bm25_lab minus dense | Recall@10 | +0.133 | [+0.033, +0.267] | 0.177 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | MRR@10 | +0.203 | [+0.086, +0.332] | 0.179 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus dense | nDCG@10 | +0.186 | [+0.085, +0.297] | 0.153 | ablation/bm25_lab higher |
+| ablation/bm25_lab minus hybrid | Recall@10 | +0.067 | [+0.000, +0.167] | 0.130 | not distinguishable |
+| ablation/bm25_lab minus hybrid | MRR@10 | +0.026 | [-0.034, +0.099] | 0.096 | not distinguishable |
+| ablation/bm25_lab minus hybrid | nDCG@10 | +0.037 | [-0.016, +0.104] | 0.089 | not distinguishable |
+| ablation/bm25_lab minus rerank | Recall@10 | +0.000 | [-0.100, +0.100] | 0.134 | not distinguishable |
+| ablation/bm25_lab minus rerank | MRR@10 | -0.095 | [-0.214, +0.013] | 0.168 | not distinguishable |
+| ablation/bm25_lab minus rerank | nDCG@10 | -0.063 | [-0.163, +0.025] | 0.137 | not distinguishable |
 | ablation/dense_potion minus bm25 | Recall@10 | -0.067 | [-0.200, +0.067] | 0.187 | not distinguishable |
 | ablation/dense_potion minus bm25 | MRR@10 | -0.129 | [-0.247, -0.027] | 0.164 | bm25 higher |
 | ablation/dense_potion minus bm25 | nDCG@10 | -0.118 | [-0.226, -0.025] | 0.147 | bm25 higher |
@@ -298,13 +332,15 @@ The run file for it lives in `runs/own/ablation/`.
 | ablation/dense_potion minus rerank | MRR@10 | -0.224 | [-0.368, -0.083] | 0.206 | rerank higher |
 | ablation/dense_potion minus rerank | nDCG@10 | -0.181 | [-0.306, -0.065] | 0.174 | rerank higher |
 
-The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time. Two systems that score the same on every query have no interval to speak of, so their MDD is shown as -.
 <!-- p2:end own-ablation -->
 
 The queries your ablation helped and hurt, against the system it varies, by reciprocal rank.
 `p2 score` finds that system from a line such as `BASE = "bm25"` in your variant's file, or else from its name: `bm25_lab` varies `bm25`.
 
 <!-- p2:begin own-ablation-queries -->
+ablation/bm25_lab against bm25 (the name bm25_lab starts with bm25_): it helped 0 queries, hurt 0 and left 30 unchanged.
+
 ablation/dense_potion against dense (the name dense_potion starts with dense_): it helped 9 queries, hurt 5 and left 16 unchanged.
 
 | Query | Class | Origin | dense RR | ablation/dense_potion RR | Change | Effect |
@@ -336,6 +372,8 @@ The one change: swap `dense`'s embedding model from `bge-small-en-v1.5` (context
 The result does not support that hypothesis. `dense_potion` actually scored *higher* than `dense` on MRR@10 (0.687 vs 0.614, a difference of +0.073), though the interval `[-0.071, +0.214]` crosses zero, so with only 30 queries I cannot distinguish it from no difference at all; the MDD here is 0.207, meaning a true effect smaller than about 0.2 MRR would not have shown up either way. What I can say with more confidence: both dense variants still lose clearly to `bm25` (dense_potion minus bm25: -0.129 `[-0.247, -0.027]`, bm25 higher) and to `rerank` (-0.224 `[-0.368, -0.083]`, rerank higher), so the embedding-model swap did not close the gap that made `dense` the weak link on my corpus.
 
 The per-query table shows why the two dense variants land close together: `dense_potion` helped 9 queries and hurt 5, often flipping queries from one extreme to the other rather than nudging them — e.g. c05 went from RR 0.000 to 1.000 (helped), while c01 went from 1.000 to 0.200 (hurt). That volatility, not a consistent direction, looks like the real story: the two embedding models seem to pick up on different lexical/semantic cues per plot summary, so swapping models reshuffles which queries succeed rather than reliably improving or hurting paraphrase retrieval overall. My original hypothesis assumed potion's lack of context would be a uniform handicap; instead it looks closer to a different, not strictly worse, similarity signal for short plot-summary queries. The real bottleneck for `dense` on this corpus is probably not which embedding model it uses, but that cosine similarity alone (either model) can't reliably separate many similarly-worded plots the way `bm25`'s exact keyword matches or `rerank`'s read-the-passage judgment can.
+
+**Second ablation (bm25_lab):** the change was BM25's tokenizer, `"codes"` → `"lab"`, a text-processing change rather than an embedding-model one. My hypothesis predicted a near-zero, not-distinguishable difference, because `"codes"`'s special handling of hyphenated/dotted tokens (built for the shared CFR corpus's section numbers like `75.403`) has almost nothing to act on in Wikipedia plot-summary text. The result matched the hypothesis exactly: `bm25_lab` scored identically to `bm25` on every metric (MRR@10 0.816 vs 0.816) and the per-query table shows it helped 0 queries, hurt 0, and left all 30 unchanged — the interval is `[+0.000, +0.000]`. This is as strong a confirmation as a gold set can give: not just "not distinguishable" due to a wide interval, but a true zero, because my corpus's text genuinely contains none of the hyphenated/dotted codes this tokenizer difference was built to handle. It also indirectly supports the explanation in the cross-corpus comparison (section 7): the shared and own corpora differ enough in vocabulary structure that a change calibrated for one (regulatory code numbers) can be entirely inert on the other.
 
 ---
 
@@ -398,6 +436,12 @@ For the hand and claude queries, do the same with your prediction before you sco
 
 **Hypothesis (written before running):** this second ablation varies the BM25 tokenizer (`"codes"` → `"lab"`), a different kind of change than the first ablation (embedding model). The `"codes"` tokenizer keeps hyphenated/dotted codes whole (e.g. `75.403` stays a token, in addition to its parts `75` and `403`), which matters on the shared CFR corpus's section numbers. My own corpus is Wikipedia plot summaries with almost no dotted/hyphenated code-like tokens. So I expect `bm25_lab` to score *about the same* as `bm25` on my own corpus — a near-zero, not-distinguishable difference on MRR@10 — because the thing `"codes"` was built to help with barely exists in my corpus's text.
 
+1. **Option 4: a second ablation, of a different kind.**
+2. **What I did:** added `p2/retrievers/bm25_lab.py`, which runs `bm25` with `cfg.tokenizer = "lab"` instead of the default `"codes"` (everything else in BM25 unchanged — same k1, b, chunking). Ran it with `uv run p2 run --corpus own --system bm25_lab --ablation`, writing `runs/own/ablation/bm25_lab.trec`. The hypothesis above was committed (commit `a8b6394`) before the variant file itself was committed (`03a4718`) and before the run.
+3. **Table:** `own-ablation` and `own-ablation-queries` in section 5.
+4. **What the interval lets me claim:** my hypothesis held, and more strongly than I expected. `bm25_lab` scored *exactly* the same as `bm25` on every metric (MRR@10 0.816 = 0.816, interval `[+0.000, +0.000]`), and the per-query table shows 0 queries helped, 0 hurt, all 30 unchanged. This isn't just "the gold set was too small to tell" — it's a true zero, because my corpus's plot-summary text contains essentially none of the hyphenated/dotted code-like tokens (`75.403`, `syn-4127`) that the `"codes"` tokenizer was built to handle differently from `"lab"`. What it does *not* let me claim: that the tokenizer choice never matters — only that it doesn't matter *on this corpus*. The shared CFR corpus is exactly the case where I'd expect this change to matter, and I did not test it there.
+5. **What I'd do next:** rerun `bm25_lab` on the shared corpus's practice queries, where section-number-style tokens are common, to see whether the tokenizer choice actually produces a real, nonzero gap there — that would confirm the difference is about the corpus's vocabulary structure, not about the tokenizer being generally inert.
+
 ### Claim-level faithfulness check (option 2)
 
 Claude's verdicts from `p2 judge` against your own verdicts in the calibration file.
@@ -439,6 +483,7 @@ Systems that do not call Claude, from traces/retrieval/ on the machine that last
 
 | Trace | System | Queries | Seconds | Milliseconds per query |
 | --- | --- | ---: | ---: | ---: |
+| traces/retrieval/own-own-ablation-bm25_lab.jsonl | bm25_lab | 30 | 0.04 | 1.2 |
 | traces/retrieval/own-own-ablation-dense_potion.jsonl | dense_potion | 30 | 0.06 | 1.8 |
 | traces/retrieval/own-own-bm25.jsonl | bm25 | 30 | 0.04 | 1.2 |
 | traces/retrieval/own-own-dense.jsonl | dense | 30 | 0.37 | 12.5 |
