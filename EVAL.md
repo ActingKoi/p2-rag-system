@@ -304,6 +304,8 @@ The run file for it lives in `runs/own/ablation/`.
 
 **Hypothesis (written before running):** `dense_potion` swaps the dense retriever's embedding model from `bge-small-en-v1.5` (contextual) to `potion-retrieval-32M` (static, model2vec). I expect `dense_potion` to score lower than `dense` on MRR@10, because potion's static embeddings capture less contextual/semantic nuance than bge-small, which should hurt a paraphrase-matching task more than a static model can handle.
 
+**A note on this hypothesis's commit history:** this hypothesis was written and asked for before the `dense_potion.py` code existed and before `uv run p2 run --ablation` or `uv run p2 score` were run, in that order, in my working session with Claude Code. However, Claude (working on my behalf) committed the hypothesis text, the new retriever file, and the scored run file all together in a single commit (`b91929b`, "Add dense_potion ablation"), rather than as three separate commits the way the second ablation later in this file was committed (hypothesis in `a8b6394`, code in `03a4718`, run and write-up in `73a0429`). That means git history alone cannot prove the order for this first ablation, even though the order was in fact followed. This was a process mistake by the agent, not a decision I made or asked for — I was not told at the time that commit granularity mattered for proving this, and only learned the right way to do it (separate commits) once we got to the second ablation. I am flagging this here so it is not read as evidence the hypothesis was written after seeing the result.
+
 <!-- p2:begin own-ablation -->
 | Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
 | --- | --- | ---: | ---: | ---: | --- |
